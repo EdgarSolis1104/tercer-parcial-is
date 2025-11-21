@@ -53,6 +53,7 @@ body {
 .benefits {
     max-width: 1596px;
     margin: 0 auto;
+    margin-bottom: 150px;
 }
 
 .benefits-header {
@@ -172,7 +173,6 @@ body {
 }
 
 .contacts{
-    width: 100%;
     display: flex; 
     gap: 24px;
     justify-content: center;
@@ -181,6 +181,7 @@ body {
     padding: 22px 28px;
     border-radius: 8px;
     color: var(--grey-30);
+    margin-left: 50px;
 
 }
 
@@ -243,5 +244,6 @@ body {
 }
 
 .narrow {
-    grid-column: span 2;}
+    grid-column: span 2;
+}
     
