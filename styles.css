@@ -172,17 +172,19 @@ body {
     display: flex; gap: 14px;
 }
 
+.contact-bar{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
 .contacts{
     display: flex; 
-    gap: 24px;
-    justify-content: center;
+    align-items: center; 
+    gap: 25px;
+    padding: 24px 32px; 
     border: 1px solid var(--peach-85);
-    margin-bottom: 20px;
-    padding: 22px 28px;
     border-radius: 8px;
-    color: var(--grey-30);
-    margin-left: 50px;
-
 }
 
 .contact-item {
