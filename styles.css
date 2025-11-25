@@ -369,6 +369,7 @@ body {
 
 .we_loved_from .grid-container {
     display: block;
+    flex-direction: column;
     margin: 0px 162px;
     background: #F5F3F0;
     justify-content: center;
@@ -400,23 +401,30 @@ body {
     list-style-type: none;
     padding-left: 162px;
 }
-
+/*
 .wrapper {
     padding-left: 162px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+
+  */
+
+.contact-content-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
   
-  .box-a{
+.box-a{
     color: #F5F3F0;
     border-radius: 8px;
     padding: 20px;
     font-size: 18px;
     list-style-type: none;
     flex: 1;
-  }
+}
 
-  .box-c{
+.box-c{
     color: #F5F3F0;
     border-radius: 8px;
     padding: 20px;
@@ -426,11 +434,11 @@ body {
     flex-direction: row;
     flex: 1;
     justify-content: center;
-  }
+}
 
-  .wrapper .box-c {
+.wrapper .box-c {
     display: flex;
     flex-direction: row;
     justify-content: center;
-  }
+}
     
