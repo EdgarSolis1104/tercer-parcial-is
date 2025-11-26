@@ -63,6 +63,11 @@ line-height:1.5em;
     --font-primary: "Manrope", sans-serif;
     --grey-20: #333333;
     --grey-30: #4d4d4d;
+    --grey-50: #808080;
+    --peach-85: #E1DBD1;
+    --peach-90: #EBE7E0;
+    --peach-92: #EEEBE5;
+    --peach-96: #F7F6F3;
 }
 
 
@@ -99,7 +104,6 @@ body {
     background-color: #eeebe5;
     font-family: var(--font-primary);
     line-height: 1.6;
-    padding: 40px 20px;
 }
 
 .benefits {
@@ -218,6 +222,12 @@ body {
     color: var(--grey-20);
     font-size: 16px;
     font-weight: 500;
+    text-decoration: none;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: var(--grey-20);
 }
 
 .redes{
@@ -765,8 +775,8 @@ position: absolute;
     justify-content: space-between;
     align-items: center;
     padding: 20px 80px;
-    border-bottom: 1px solid var(--color-border-light);
-    background-color: var(--color-background);
+    border-bottom: 1px solid var(--peach-85);
+    background-color: var(--peach-92);
     position: sticky;
     top: 0;
     z-index: 100;
